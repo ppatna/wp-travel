@@ -1,0 +1,16 @@
+<wpml-config>
+    <admin-texts>
+        <key name="seed_confirm_notification_text" />
+        <key name="seed_confirm_thankyou_display_title" />
+        <key name="seed_confirm_upload_slip_modal_title" />
+        <key name="seed_confirm_upload_slip_modal_message" />
+        <key name="woocommerce_bacs_accounts">
+				<key name="*">
+					<key name="account_name"/>
+					<key name="bank_name"/>
+				</key>
+			</key>
+    </admin-texts>
+</wpml-config>
+
+

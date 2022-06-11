@@ -1,0 +1,137 @@
+[
+    {
+        "name": "kittinan/php-crc",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kittinan/php-crc.git",
+            "reference": "878bab5ee779a20d62c4ebfd800bf10a1779c29f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kittinan/php-crc/zipball/878bab5ee779a20d62c4ebfd800bf10a1779c29f",
+            "reference": "878bab5ee779a20d62c4ebfd800bf10a1779c29f",
+            "shasum": ""
+        },
+        "time": "2017-09-02T08:59:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "mermshaus\\CRC\\": "src",
+                "mermshaus\\CRC\\Tests\\": "tests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marc Ermshaus",
+                "email": "marc@ermshaus.org",
+                "homepage": "http://www.ermshaus.org/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Calculates CRC checksums for input data",
+        "keywords": [
+            "ccitt",
+            "crc",
+            "crc1",
+            "crc16",
+            "crc16dnp",
+            "crc16qt",
+            "crc16usb",
+            "modbus",
+            "xmodem",
+            "zmodem"
+        ]
+    },
+    {
+        "name": "bacon/bacon-qr-code",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Bacon/BaconQrCode.git",
+            "reference": "031a2ce68c5794064b49d11775b2daf45c96e21c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/031a2ce68c5794064b49d11775b2daf45c96e21c",
+            "reference": "031a2ce68c5794064b49d11775b2daf45c96e21c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-gd": "to generate QR code images"
+        },
+        "time": "2016-01-09T22:55:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "BaconQrCode": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ben Scholzen 'DASPRiD'",
+                "email": "mail@dasprids.de",
+                "homepage": "http://www.dasprids.de",
+                "role": "Developer"
+            }
+        ],
+        "description": "BaconQrCode is a QR code generator for PHP.",
+        "homepage": "https://github.com/Bacon/BaconQrCode"
+    },
+    {
+        "name": "kittinan/php-promptpay-qr",
+        "version": "0.1.3",
+        "version_normalized": "0.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kittinan/php-promptpay-qr.git",
+            "reference": "f06720eed4c6c7ff0db9beadf4c1b1f587dd6e18"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kittinan/php-promptpay-qr/zipball/f06720eed4c6c7ff0db9beadf4c1b1f587dd6e18",
+            "reference": "f06720eed4c6c7ff0db9beadf4c1b1f587dd6e18",
+            "shasum": ""
+        },
+        "require": {
+            "bacon/bacon-qr-code": "1.0.1",
+            "kittinan/php-crc": "1.0.0",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.12",
+            "satooshi/php-coveralls": "v1.0.1"
+        },
+        "time": "2017-09-04T10:27:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "KS\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PHP Library to generate QR Code payload for PromptPay",
+        "keywords": [
+            "Promptpay"
+        ]
+    }
+]

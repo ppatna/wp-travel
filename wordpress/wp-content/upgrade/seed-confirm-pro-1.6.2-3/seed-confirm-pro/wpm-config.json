@@ -1,0 +1,18 @@
+{
+ 	"admin_pages": [
+ 		"seed_confirm_log_page_seed-confirm-log-settings",
+ 		"woocommerce_page_wc-settings"
+ 	],
+ 	"options": {
+ 		"seed_confirm_notification_text": {},
+ 		"seed_confirm_thankyou_display_title": {},
+ 		"seed_confirm_upload_slip_modal_title": {},
+ 		"seed_confirm_upload_slip_modal_message": {},
+ 		"woocommerce_bacs_accounts": {
+		  	"wpm_each": {
+		    	"account_name": {},
+		    	"bank_name": {}
+		  	}
+		}
+ 	}
+}

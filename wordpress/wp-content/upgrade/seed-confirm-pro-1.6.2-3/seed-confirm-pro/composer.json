@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kittinan/php-promptpay-qr": "^0.1.3"
+    }
+}
